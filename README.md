@@ -13,7 +13,8 @@ PHP7.2+
 
 Move git cloned files to `/var/www/html` or wherever your webroot is located
 
-Edit `/static/config.inc.php`
+copy `/static/example_config.inc.php` to `/static/config.inc.php` and edit it
+(config.inc.php is protected by gitignore to prevent credential leaks)
 
 Get a Recaptcha key at https://www.google.com/recaptcha/admin/create
 
